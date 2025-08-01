@@ -1,0 +1,47 @@
+.header-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fafbfc;
+  padding: 0.6rem 2.5vw;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+}
+.header-left {
+  display: flex;
+  align-items: center;
+}
+.header-logo {
+  height: 34px;
+  margin-right: 10px;
+}
+.header-title {
+  font-weight: bold;
+  font-size: 1.15rem;
+  font-family: 'Fira Mono', monospace;
+}
+.header-search {
+  flex: 1;
+  max-width: 400px;
+  margin: 0 24px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  padding: 7px 12px;
+  font-size: 1rem;
+  background: #f5f5f5;
+  outline: none;
+  font-family: inherit;
+}
+.header-btns button {
+  margin-left: 10px;
+  font-family: inherit;
+  border-radius: 6px;
+  border: none;
+  padding: 7px 15px;
+  background: #e0e0e0;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.18s;
+}
+.header-btns button:hover {
+  background: #d6e4ff;
+}
